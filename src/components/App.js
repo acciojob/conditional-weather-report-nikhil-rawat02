@@ -9,8 +9,8 @@ const App = () => {
   }
   return (
     <div>
-        <p style={weather.temperature> 20?{backgroundColor:'red'}:{backgroundColor:'blue'}}>temperature {weather.temperature}</p>
-        <p >condition {weather.conditions}</p>
+        <span style={weather.temperature> 20?{backgroundColor:'red'}:{backgroundColor:'blue'}}>Temperature: {weather.temperature}</span>
+        <span > Condition: {weather.conditions}</span>
 
     </div>
   )
